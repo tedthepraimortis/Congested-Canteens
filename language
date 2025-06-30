@@ -1,0 +1,4 @@
+[enu default]
+
+// Example language lump. - [Ted]
+CC_EXAMPLE_LOCALIZATION_LUMP = "Suspiciously developer-like ration with a tag that's too long to really be viable in game. Moron.";

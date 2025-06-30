@@ -73,8 +73,11 @@ class CC_ExampleMRE : UaS_Consumable
 	default 
     {
         // You can also remove flags. - [Ted]
-        -UaS_Consumable.RESEALABLE
-		tag "Suspiciously developer-like ration";
+        -UaS_Consumable.RESEALABLE;
+
+        // This tag is localized! The string will be located in the LANGUAGE lump in the root directory. Do this for all of your rations, please. - [Ted]
+        // The benefit for localization is they can be translated in the future, or changed in any way that the user may want.
+		tag "$CC_EXAMPLE_LOCALIZATION_LUMP";
 		UaS_Consumable.Description "A piece of developer information made edible. Weird. How do you have this?";
 		UaS_Consumable.Calories 42069;
 		UaS_Consumable.Fluid -1000;
