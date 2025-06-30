@@ -95,7 +95,7 @@ class CC_ExampleMRE : UaS_Consumable
     {
         // The spawn state, what the item starts in. - [Ted]
         Spawn:
-            // The sprite name, then frame of that, then what number that frame is for rotations. - [Ted]
+            // The sprite name, then frame of that, then how long that part of the state sequence shall take to complete. - [Ted]
             BTTL E -1;
             Stop;
     }
