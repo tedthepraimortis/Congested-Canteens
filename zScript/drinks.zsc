@@ -1,0 +1,40 @@
+// Nicknamed 'Dragon Cum' for a reason. - [Ted]
+class CC_Alcohol_CreamedWhiskey : UaS_Alcohol
+{
+    mixin CC_AlcoholMixin;
+
+    default
+    {
+        UaS_Consumable.Calories 1652;
+        UaS_Consumable.Fluid 701;
+        UaS_Consumable.Bulk 17;
+        UaS_Consumable.OpenSound "mre/cork";
+        
+        Inventory.Icon "BTTLD0";
+        Inventory.PickupMessage "$CC_CREAMEDWHISKEY_PICKUP";
+
+        tag "$CC_CREAMEDWHISKEY_TAG";
+        Uas_Consumable.Description "$CC_CREAMEDWHISKEY_DESCRIPTION";
+        UaS_Alcohol.IntoxPerBulk 77;
+
+        Scale 0.5;
+    }
+    override void Messages()
+    {
+        AddOpenText(Stringtable.Localize("$CC_CREAMEDWHISKEY_OPEN1"));
+        AddOpenText(Stringtable.Localize("$CC_CREAMEDWHISKEY_OPEN2"));
+
+        AddConsumeText(Stringtable.Localize("$CC_CREAMEDWHISKEY_CONSUME1"));
+        AddConsumeText(Stringtable.Localize("$CC_CREAMEDWHISKEY_CONSUME2"));
+        AddConsumeText(Stringtable.Localize("$CC_CREAMEDWHISKEY_CONSUME3"));
+        AddConsumeText(Stringtable.Localize("$CC_CREAMEDWHISKEY_CONSUME4"));
+        AddConsumeText(Stringtable.Localize("$CC_CREAMEDWHISKEY_CONSUME5"));
+    }
+    
+    states
+    {
+        Spawn:
+            BTTL D -1;
+            Stop;
+    }
+}

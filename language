@@ -2,3 +2,18 @@
 
 // Example language lump. - [Ted]
 CC_EXAMPLE_LOCALIZATION_LUMP = "Suspiciously developer-like ration with a tag that's too long to really be viable in game. Moron.";
+
+// Mixins. - [Ted]
+CC_ALCHMIXIN_PICKUP = "Picked up a glass bottle filled with something alcoholic.";
+
+// Alcoholic Drinks. - [Ted]
+CC_CREAMEDWHISKEY_PICKUP = "Picked up a large glass bottle filled with a creamy-looking whiskey.";
+CC_CREAMEDWHISKEY_DESCRIPTION = "A larger-than-average bottle of Whiskey with a whiter, creamier look to it. It has a label on the front with a scribbled 'Dragon' on it.";
+CC_CREAMEDWHISKEY_TAG = "Creamy Whiskey";
+CC_CREAMEDWHISKEY_OPEN1 = "A nice aroma to it, despite how it looks.";
+CC_CREAMEDWHISKEY_OPEN2 = "The smell burns... Yet in a pleasant way.";
+CC_CREAMEDWHISKEY_CONSUME1 = "HO-oh! A strong burning sensation.";
+CC_CREAMEDWHISKEY_CONSUME2 = "Really clears your sinuses.";
+CC_CREAMEDWHISKEY_CONSUME3 = "Tastes almost like coffee creamer...";
+CC_CREAMEDWHISKEY_CONSUME4 = "A nice cinnamon-y taste to it...";
+CC_CREAMEDWHISKEY_CONSUME5 = "Something is wrong, yet you can't tell what.";

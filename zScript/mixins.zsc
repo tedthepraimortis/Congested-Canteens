@@ -1,0 +1,18 @@
+mixin class CC_AlcoholMixin
+{
+    default
+    {
+        Uas_Consumable.Calories 31;
+        Uas_Consumable.Fluid 417;
+        Uas_Consumable.Bulk 9;
+
+        +Uas_Consumable.DRINKABLE;
+        +Uas_Consumable.PACKAGED;
+        +UaS_Consumable.RESEALABLE;
+        
+        Inventory.PickupMessage "$CC_ALCHMIXIN_PICKUP";
+
+        Inventory.Icon "HSCVZ0";
+        scale 0.85;
+    }
+}
