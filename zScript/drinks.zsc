@@ -38,3 +38,37 @@ class CC_Alcohol_CreamedWhiskey : UaS_Alcohol
             Stop;
     }
 }
+
+class CC_Alcohol_Kahlua : UaS_Alcohol
+{
+    mixin CC_AlcoholMixin;
+
+    default
+    {
+        UaS_Consumable.Calories 1021;
+        UaS_Consumable.Fluid 192;
+        UaS_Consumable.Bulk 16;
+        UaS_Consumable.OpenSound "mre/cork";
+
+        Inventory.Icon "BTTLC0";
+
+        tag "$CC_KAHLUA_TAG"
+        Uas_Consumable.Description "$CC_KAHLUA_DESCRIPTION"
+        UaS_Alcohol.IntoxPerBulk 34;
+
+        Scale 0.5;
+    }
+
+    override void Messages()
+    {
+        AddOpenText(Stringtable.Localize("$CC_KAHLUA_OPEN1"));
+        AddOpenText(Stringtable.Localize("$CC_KAHLUA_OPEN2"));
+
+        AddConsumeText(Stringtable.Localize("$CC_KAHLUA_CONSUME1"));
+        AddConsumeText(Stringtable.Localize("$CC_KAHLUA_CONSUME2"));
+        AddConsumeText(Stringtable.Localize("$CC_KAHLUA_CONSUME3"));
+        AddConsumeText(Stringtable.Localize("$CC_KAHLUA_CONSUME4"));
+        AddConsumeText(Stringtable.Localize("$CC_KAHLUA_CONSUME5"));
+        AddConsumeText(Stringtable.Localize("$CC_KAHLUA_CONSUME6"));
+    }
+}

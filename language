@@ -7,6 +7,8 @@ CC_EXAMPLE_LOCALIZATION_LUMP = "Suspiciously developer-like ration with a tag th
 CC_ALCHMIXIN_PICKUP = "Picked up a glass bottle filled with something alcoholic.";
 
 // Alcoholic Drinks. - [Ted]
+
+// Coffee Creamer Whiskey
 CC_CREAMEDWHISKEY_PICKUP = "Picked up a large glass bottle filled with a creamy-looking whiskey.";
 CC_CREAMEDWHISKEY_DESCRIPTION = "A larger-than-average bottle of Whiskey with a whiter, creamier look to it. It has a label on the front with a scribbled 'Dragon' on it.";
 CC_CREAMEDWHISKEY_TAG = "Creamy Whiskey";
@@ -17,3 +19,15 @@ CC_CREAMEDWHISKEY_CONSUME2 = "Really clears your sinuses.";
 CC_CREAMEDWHISKEY_CONSUME3 = "Tastes almost like coffee creamer...";
 CC_CREAMEDWHISKEY_CONSUME4 = "A nice cinnamon-y taste to it...";
 CC_CREAMEDWHISKEY_CONSUME5 = "Something is wrong, yet you can't tell what.";
+
+// Kahlua
+CC_KAHLUA_DESCRIPTION = "A bottle of Kahlúa coffee liquour. Supposedly has a rather strong Arabic coffee taste to it.";
+CC_KAHLUA_TAG = "Kahlúa";
+CC_KAHLUA_OPEN1 = "A sharp smell of coffee eminates from the bottle.";
+CC_KAHLUA_OPEN2 = "Smells like rum.";
+CC_KAHLUA_CONSUME1 = "Blegh, overwhelmingly sweet.";
+CC_KAHLUA_CONSUME2 = "Disgusting.";
+CC_KAHLUA_CONSUME3 = "Slightly chocolately, but still overtly sweet.";
+CC_KAHLUA_CONSUME4 = "Bluegh.";
+CC_KAHLUA_CONSUME5 = "Tastes like white girl espresso.";
+CC_KAHLUA_CONSUME6 = "Eugh...";
