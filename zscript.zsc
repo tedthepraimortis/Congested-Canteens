@@ -1,0 +1,7 @@
+version "4.14"
+
+#include "zScript/mixins.zsc"
+#include "zScript/packages.zsc"
+#include "zScript/edibles.zsc"
+#include "zScript/drinks.zsc"
+#include "zScript/miscellaneous.zsc"
