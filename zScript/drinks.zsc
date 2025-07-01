@@ -52,8 +52,8 @@ class CC_Alcohol_Kahlua : UaS_Alcohol
 
         Inventory.Icon "BTTLC0";
 
-        tag "$CC_KAHLUA_TAG"
-        Uas_Consumable.Description "$CC_KAHLUA_DESCRIPTION"
+        tag "$CC_KAHLUA_TAG";
+        Uas_Consumable.Description "$CC_KAHLUA_DESCRIPTION";
         UaS_Alcohol.IntoxPerBulk 34;
 
         Scale 0.5;

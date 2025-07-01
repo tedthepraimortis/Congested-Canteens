@@ -1,0 +1,22 @@
+// I never put a single other seasoning other than the storebought seasoning in tacos -- [Kattie]
+class CC_PlateTacos : UaS_Consumable
+{
+    mixin CC_PlatedMixin;
+
+    default
+    {
+        tag "$CC_TACOS_TAG";
+        Uas_Consumable.Calories 470; 
+        UaS_Consumable.Description "$CC_TACOS_DESCRIPTION";
+    }
+    override void Messages() {
+		AddOpenText(Stringtable.Localize("$CC_TACOS_OPEN1"));
+		AddOpenText(Stringtable.Localize("$CC_TACOS_OPEN2"));
+
+        AddConsumeText(Stringtable.Localize("$CC_TACOS_CONSUME1"));
+        AddConsumeText(Stringtable.Localize("$CC_TACOS_CONSUME2"));
+        AddConsumeText(Stringtable.Localize("$CC_TACOS_CONSUME3"));
+        AddConsumeText(Stringtable.Localize("$CC_TACOS_CONSUME4"));
+	}
+
+}

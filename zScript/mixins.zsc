@@ -16,3 +16,18 @@ mixin class CC_AlcoholMixin
         scale 0.85;
     }
 }
+
+mixin class CC_PlatedMixin
+{
+    default
+    {
+        Uas_Consumable.Calories 400;
+        Uas_Consumable.Fluid 50;
+        Uas_Consumable.Bulk 7;
+
+        Inventory.PickupMessage "$CC_PLTMIXIN_PICKUP";
+
+        // Sprite stuff goes here. Dont leave entirely to Ted. -- [Kattie]
+    }
+
+}

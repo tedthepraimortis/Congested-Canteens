@@ -5,6 +5,7 @@ CC_EXAMPLE_LOCALIZATION_LUMP = "Suspiciously developer-like ration with a tag th
 
 // Mixins. - [Ted]
 CC_ALCHMIXIN_PICKUP = "Picked up a glass bottle filled with something alcoholic.";
+CC_PLTMIXIN_PICKUP = "Picked up a plate of some food.";
 
 // Alcoholic Drinks. - [Ted]
 
@@ -31,3 +32,15 @@ CC_KAHLUA_CONSUME3 = "Slightly chocolately, but still overtly sweet.";
 CC_KAHLUA_CONSUME4 = "Bluegh.";
 CC_KAHLUA_CONSUME5 = "Tastes like white girl espresso.";
 CC_KAHLUA_CONSUME6 = "Eugh...";
+
+// Plated foods -- [Kattie]
+
+// Tacos
+CC_TACOS_DESCRIPTION = "A plate of tacos that was abandoned. The smell of the seasonings would be great if it didn't mix horribly with the smell of demons and decay.";
+CC_TACOS_TAG = "Tacos";
+CC_TACOS_OPEN1 = "2 really big tacos. They used half a pound for each";
+CC_TACOS_OPEN2 = "A lot of street tacos, smaller than normal.";
+CC_TACOS_CONSUME1 = "Drowning in sour cream.";
+CC_TACOS_CONSUME2 = "Not enough seasoning";
+CC_TACOS_CONSUME3 = "That one was alright.";
+CC_TACOS_CONSUME4 = "Weirdly spicy.";
