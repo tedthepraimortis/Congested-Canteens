@@ -25,4 +25,49 @@ class CC_InjectableDrywall : UaS_Consumable
         AddConsumeText(Stringtable.Localize("$CC_IDRYWALL_CONSUME5"));
         AddConsumeText(Stringtable.Localize("$CC_IDRYWALL_CONSUME6"));
     }
+
+	int prevbulk;
+
+	override void PostBeginPlay()
+	{
+		super.PostBeginPlay();
+		prevbulk = weaponbulk();
+	}
+	override void Tick()
+	{
+		super.tick();
+		weaponstatus[UGCS_SPOILAGE] = 0; // no spoiling. it's fucking drywall. - [Ted]
+
+		if(!tracker || !tracker.owner)
+			return;
+		HDPlayerPawn hdp = HDPlayerPawn(tracker.owner);
+		int bulk = prevbulk - weaponbulk();
+		if(bulk > 0){
+			hdp.GiveInventory("HDDrugThatKillsYou", 1000);
+		}
+		prevbulk = weaponbulk();
+	}
+}
+
+// The drug. That kills you. It kills you. - [Ted]
+class HDDrugThatKillsYou : HDDrug
+{
+    enum KillsYouDrugAmounts
+    {
+        HDKILLSYOU_DOSE = 1000,
+        HDKILLSYOU_MAX = 1,
+    }
+
+	override void OnHeartbeat(hdplayerpawn hdp){
+		if(amount<1)return;
+		int amt=amount;amount--;
+		if(amt>1){
+			if(hdp.beatcap>max(3,10-(amount>>2)))hdp.beatcap--;
+			if(hdp.stunned<5)hdp.stunned+=1;
+			if(
+				hdp.bloodpressure<25-(hdp.bloodloss>>2)
+			)hdp.bloodpressure+=2;
+		}
+		if(hd_debug>=4)console.printf("Killing you "..amt.."/"..HDKILLSYOU_MAX.."  = "..hdp.strength);
+	}
 }
