@@ -31,3 +31,21 @@ mixin class CC_PlatedMixin
     }
 
 }
+
+mixin class CC_EdibleInjectableMixin
+{
+    default
+    {
+        Uas_Consumable.Calories -1000;
+        Uas_Consumable.Fluid 1;
+        Uas_Consumable.Bulk 1;
+
+        +Uas_Consumable.DRINKABLE;
+        +Uas_Consumable.PACKAGED;
+        
+        Inventory.PickupMessage "$CC_INJECTMIXIN_PICKUP";
+
+        Inventory.Icon "SYRBA0";
+        scale 0.32;
+    }
+}

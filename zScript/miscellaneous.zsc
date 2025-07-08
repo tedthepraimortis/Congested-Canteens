@@ -1,0 +1,28 @@
+// From a co-op game I had.
+class CC_InjectableDrywall : UaS_Consumable
+{
+    mixin CC_EdibleInjectableMixin;
+
+    default
+    {
+        UaS_Consumable.Calories 9;
+        UaS_Consumable.Fluid -1922;
+        UaS_Consumable.Bulk 1;
+
+        tag "$CC_IDRYWALL_TAG";
+        Uas_Consumable.Description "$CC_IDRYWALL_DESCRIPTION";
+    }
+
+    override void Messages()
+    {
+        AddOpenText(Stringtable.Localize("$CC_IDRYWALL_OPEN1"));
+        AddOpenText(Stringtable.Localize("$CC_IDRYWALL_OPEN2"));
+
+        AddConsumeText(Stringtable.Localize("$CC_IDRYWALL_CONSUME1"));
+        AddConsumeText(Stringtable.Localize("$CC_IDRYWALL_CONSUME2"));
+        AddConsumeText(Stringtable.Localize("$CC_IDRYWALL_CONSUME3"));
+        AddConsumeText(Stringtable.Localize("$CC_IDRYWALL_CONSUME4"));
+        AddConsumeText(Stringtable.Localize("$CC_IDRYWALL_CONSUME5"));
+        AddConsumeText(Stringtable.Localize("$CC_IDRYWALL_CONSUME6"));
+    }
+}

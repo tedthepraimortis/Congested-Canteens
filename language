@@ -6,6 +6,7 @@ CC_EXAMPLE_LOCALIZATION_LUMP = "Suspiciously developer-like ration with a tag th
 // Mixins. - [Ted]
 CC_ALCHMIXIN_PICKUP = "Picked up a glass bottle filled with something alcoholic.";
 CC_PLTMIXIN_PICKUP = "Picked up a plate of some food.";
+CC_INJECTMIXIN_PICKUP = "Picked up a broken injector.";
 
 // Alcoholic Drinks. - [Ted]
 
@@ -44,3 +45,15 @@ CC_TACOS_CONSUME1 = "Drowning in sour cream.";
 CC_TACOS_CONSUME2 = "Not enough seasoning";
 CC_TACOS_CONSUME3 = "That one was alright.";
 CC_TACOS_CONSUME4 = "Weirdly spicy.";
+
+// Misc. - [Ted]
+CC_IDRYWALL_TAG = "Injectable Drywall";
+CC_IDRYWALL_DESCRIPTION = "Some drywall that has been turned into wetwall then put in a syringe to inject you with. A true scientific marvel that this even can exit the syringe.";
+CC_IDRYWALL_OPEN1 = "You take the plunger out of the syringe. Why are you doing that?";
+CC_IDRYWALL_OPEN2 = "You rip open the syringe like some sort of caveman.";
+CC_IDRYWALL_CONSUME1 = "SLUURP";
+CC_IDRYWALL_CONSUME2 = "You're insane.";
+CC_IDRYWALL_CONSUME3 = "It's drywall. Why are you eating it??";
+CC_IDRYWALL_CONSUME4 = "Disgustingly dry and drab.";
+CC_IDRYWALL_CONSUME5 = "Goopy. Somehow.";
+CC_IDRYWALL_CONSUME6 = "Feels almost carcinogenic.";
