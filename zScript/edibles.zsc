@@ -29,7 +29,7 @@ class CC_Murphy_Slaw : UaS_Consumable
     {
         tag "$CC_MURPHYSLAW_TAG";
         UaS_Consumable.Calories 623;
-        UaS_Consumable.Fluids 92;
+        UaS_Consumable.Fluid 92;
         UaS_Consumable.Description "$CC_MURPHYSLAW_DESCRIPTION";
     }
 
