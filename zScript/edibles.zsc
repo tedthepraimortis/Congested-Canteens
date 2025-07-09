@@ -20,3 +20,26 @@ class CC_PlateTacos : UaS_Consumable
 	}
 
 }
+
+class CC_Murphy_Slaw : UaS_Consumable
+{
+    mixin CC_PlatedMixin;
+
+    default
+    {
+        tag "$CC_MURPHYSLAW_TAG";
+        UaS_Consumable.Calories 623;
+        UaS_Consumable.Fluids 92;
+        UaS_Consumable.Description "$CC_MURPHYSLAW_DESCRIPTION"
+    }
+
+    override void Messages() {
+		AddOpenText(Stringtable.Localize("$CC_MURPHYSLAW_OPEN1"));
+		AddOpenText(Stringtable.Localize("$CC_MURPHYSLAW_OPEN2"));
+
+        AddConsumeText(Stringtable.Localize("$CC_MURPHYSLAW_CONSUME1"));
+        AddConsumeText(Stringtable.Localize("$CC_MURPHYSLAW_CONSUME2"));
+        AddConsumeText(Stringtable.Localize("$CC_MURPHYSLAW_CONSUME3"));
+        AddConsumeText(Stringtable.Localize("$CC_MURPHYSLAW_CONSUME4"));
+	}
+}

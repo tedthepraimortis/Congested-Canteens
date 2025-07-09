@@ -46,6 +46,15 @@ CC_TACOS_CONSUME2 = "Not enough seasoning";
 CC_TACOS_CONSUME3 = "That one was alright.";
 CC_TACOS_CONSUME4 = "Weirdly spicy.";
 
+CC_MURPHYSLAW_TAG = "Plastic Bag with Coleslaw"
+CC_MURPHYSLAW_DESCRIPTION = "A plastic bag filled with what, at first inspection, appears to be coleslaw. With further inspection it's random bits of PCBs in the shape of coleslaw.";
+CC_MURPHYSLAW_OPEN1 = "Smells leaded.";
+CC_MURPHYSLAW_OPEN2 = "Despite what it's made of, still seems edible.";
+CC_MURPHYSLAW_CONSUME1 = "Absolutely miserable.";
+CC_MURPHYSLAW_CONSUME2 = "Everything that could go wrong, has now went wrong in the creation of this.";
+CC_MURPHYSLAW_CONSUME3 = "You pick out a DRAM chip and crunch on some of the PCB chips.";
+CC_MURPHYSLAW_CONSUME4 = "Uncomfortably crunchy, and missing onion.";
+
 // Misc. - [Ted]
 CC_IDRYWALL_TAG = "Injectable Drywall";
 CC_IDRYWALL_DESCRIPTION = "Some drywall that has been turned into wetwall then put in a syringe to inject you with. A true scientific marvel that this even can exit the syringe.";
