@@ -49,3 +49,83 @@ mixin class CC_EdibleInjectableMixin
         scale 0.32;
     }
 }
+
+mixin class CC_ComfortMREMixin
+{
+    default
+    {
+        Uas_Consumable.Calories 950;
+        Uas_Consumable.Fluid 650;
+        Uas_Consumable.Bulk 14;
+
+        +Uas_Consumable.PACKAGED;
+        
+        Inventory.PickupMessage "$CC_COMFORTMIXIN";
+
+        scale 0.7;
+    }
+}
+
+mixin class CC_OpenComfortMREMixin
+{
+    default
+    {
+        Uas_Consumable.Calories 950;
+        Uas_Consumable.Fluid 650;
+        Uas_Consumable.Bulk 14;
+        
+        Inventory.PickupMessage "$CC_COMFORTMIXIN";
+
+        scale 0.7;
+    }
+}
+
+mixin class CC_CannedMREMixin
+{
+    default
+    {
+        Uas_Consumable.Calories 350;
+        Uas_Consumable.Fluid 250;
+        Uas_Consumable.Bulk 6;
+        Uas_Consumable.OpenSound "mre/tinopen";
+
+        +UaS_Consumable.PACKAGED;
+        
+        Inventory.PickupMessage "$CC_CANNEDMRE";
+
+        scale 0.4;
+    }
+}
+
+mixin class CC_MunchiesMREMixin
+{
+    default
+    {
+        Uas_Consumable.Calories 200;
+        Uas_Consumable.Fluid 120;
+        Uas_Consumable.Bulk 8;
+
+        +UaS_Consumable.PACKAGED;
+        +Uas_Consumable.RESEALABLE;
+        
+        Inventory.PickupMessage "$CC_MUNCHIES";
+
+        scale 0.5;
+    }
+}
+
+mixin class CC_BaggedMREMixin
+{
+    default
+    {
+        Uas_Consumable.Calories 200;
+        Uas_Consumable.Fluid 20;
+        Uas_Consumable.Bulk 8;
+
+        +UaS_Consumable.PACKAGED;
+        
+        Inventory.PickupMessage "$CC_BAGGEDMIXIN";
+
+        scale 0.5;
+    }
+}

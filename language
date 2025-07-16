@@ -7,6 +7,10 @@ CC_EXAMPLE_LOCALIZATION_LUMP = "Suspiciously developer-like ration with a tag th
 CC_ALCHMIXIN_PICKUP = "Picked up a glass bottle filled with something alcoholic.";
 CC_PLTMIXIN_PICKUP = "Picked up a plate of some food.";
 CC_INJECTMIXIN_PICKUP = "Picked up a broken injector.";
+CC_COMFORTMIXIN = "Picked up an MRE pouch with a pull tab.";
+CC_CANNEDMRE = "Picked up a canned MRE.";
+CC_MUNCHIES = "Picked up an MRE pouch.";
+CC_BAGGEDMIXIN = "Picked up a bag of food.";
 
 // Alcoholic Drinks. - [Ted]
 
@@ -46,6 +50,7 @@ CC_TACOS_CONSUME2 = "Not enough seasoning";
 CC_TACOS_CONSUME3 = "That one was alright.";
 CC_TACOS_CONSUME4 = "Weirdly spicy.";
 
+// Coleslaw???
 CC_MURPHYSLAW_TAG = "Plastic Bag with Coleslaw";
 CC_MURPHYSLAW_DESCRIPTION = "A plastic bag filled with what, at first inspection, appears to be coleslaw. With further inspection it's random bits of PCBs in the shape of coleslaw.";
 CC_MURPHYSLAW_OPEN1 = "Smells leaded.";
@@ -54,6 +59,16 @@ CC_MURPHYSLAW_CONSUME1 = "Absolutely miserable.";
 CC_MURPHYSLAW_CONSUME2 = "Everything that could go wrong, has now went wrong in the creation of this.";
 CC_MURPHYSLAW_CONSUME3 = "You pick out a DRAM chip and crunch on some of the PCB chips.";
 CC_MURPHYSLAW_CONSUME4 = "Uncomfortably crunchy, and missing onion.";
+
+// The Legendary Roundmeal
+CC_ROUNDMEAL_TAG = "Roundmeal™";
+CC_ROUNDMEAL_DESCRIPTION = "A large plastic bag filled with Macaroni and Beef. Advertised as 'Protein-Blasted' with only two cooking instructions. Serves three men and may contain a visit with Davis.";
+CC_ROUNDMEAL_OPEN1 = "Incredibly sloppy.";
+CC_ROUNDMEAL_OPEN2 = "Reeks like both cheap cheese and poorly ground beef.";
+CC_ROUNDMEAL_CONSUME1 = "You feel most of the calorie content is made up entirely with grease.";
+CC_ROUNDMEAL_CONSUME2 = "A thick layer of cheese-slime covers the outside as a protective membrane.";
+CC_ROUNDMEAL_CONSUME3 = "Somehow still tastes like both Mac and Beef.";
+CC_ROUNDMEAL_CONSUME4 = "Truly could feed three men.";
 
 // Misc. - [Ted]
 CC_IDRYWALL_TAG = "Injectable Drywall";

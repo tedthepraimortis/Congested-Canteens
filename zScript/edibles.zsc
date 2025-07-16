@@ -43,3 +43,27 @@ class CC_Murphy_Slaw : UaS_Consumable
         AddConsumeText(Stringtable.Localize("$CC_MURPHYSLAW_CONSUME4"));
 	}
 }
+
+class CC_Roundmeal : UaS_Consumable
+{
+    mixin CC_BaggedMREMixin;
+
+    default
+    {
+        tag "$CC_ROUNDMEAL_TAG";
+        UaS_Consumable.Calories 2691;
+        UaS_Consumable.Fluid 492;
+        UaS_Consumable.Description "$CC_ROUNDMEAL_DESCRIPTION";
+        Scale 1.2;
+    }
+
+    override void Messages() {
+        AddOpenText(Stringtable.Localize("$CC_ROUNDMEAL_OPEN1"));
+        AddOpenText(Stringtable.Localize("$CC_ROUNDMEAL_OPEN2"));
+
+        AddConsumeText(Stringtable.Localize("$CC_ROUNDMEAL_CONSUME1"));
+        AddConsumeText(Stringtable.Localize("$CC_ROUNDMEAL_CONSUME2"));
+        AddConsumeText(Stringtable.Localize("$CC_ROUNDMEAL_CONSUME3"));
+        AddConsumeText(Stringtable.Localize("$CC_ROUNDMEAL_CONSUME4"));
+    }
+}
