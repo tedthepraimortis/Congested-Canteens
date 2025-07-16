@@ -67,3 +67,26 @@ class CC_Roundmeal : UaS_Consumable
         AddConsumeText(Stringtable.Localize("$CC_ROUNDMEAL_CONSUME4"));
     }
 }
+
+class CC_HumanFingers : UaS_Consumable
+{
+    mixin CC_BaggedMREMixin;
+
+    default
+    {
+        tag "$CC_HUMANFINGERS_TAG";
+        UaS_Consumable.Calories 319;
+        UaS_Consumable.Fluid 2;
+        UaS_Consumable.Description "$CC_HUMANFINGERS_DESCRIPTION";
+    }
+
+    override void Messages() {
+        AddOpenText(Stringtable.Localize("$CC_HUMANFINGERS_OPEN1"));
+        AddOpenText(Stringtable.Localize("$CC_HUMANFINGERS_OPEN2"));
+
+        AddConsumeText(Stringtable.Localize("$CC_HUMANFINGERS_CONSUME1"));
+        AddConsumeText(Stringtable.Localize("$CC_HUMANFINGERS_CONSUME2"));
+        AddConsumeText(Stringtable.Localize("$CC_HUMANFINGERS_CONSUME3"));
+        AddConsumeText(Stringtable.Localize("$CC_HUMANFINGERS_CONSUME4"));
+    }
+}

@@ -70,6 +70,16 @@ CC_ROUNDMEAL_CONSUME2 = "A thick layer of cheese-slime covers the outside as a p
 CC_ROUNDMEAL_CONSUME3 = "Somehow still tastes like both Mac and Beef.";
 CC_ROUNDMEAL_CONSUME4 = "Truly could feed three men.";
 
+// Human Fingers.
+CC_HUMANFINGERS_TAG = "Plastic Bag with Fingers";
+CC_HUMANFINGERS_DESCRIPTION = "A small plastic bag with a palmfull of what appears to be human fingers. You are not certain whose fingers these are, but there's less than 10 at least.";
+CC_HUMANFINGERS_OPEN1 = "Upon closer inspection, some of the fingers are gummy.";
+CC_HUMANFINGERS_OPEN2 = "Suspiciously musty. As if the fingers themselves were not suspicious enough.";
+CC_HUMANFINGERS_CONSUME1 = "Squishy yet crunchy.";
+CC_HUMANFINGERS_CONSUME2 = "The red substance these are leaking does not taste like blood.";
+CC_HUMANFINGERS_CONSUME3 = "You feel like a deer eating these.";
+CC_HUMANFINGERS_CONSUME4 = "May just be prop food. Uncomfortably well made prop food.";
+
 // Misc. - [Ted]
 CC_IDRYWALL_TAG = "Injectable Drywall";
 CC_IDRYWALL_DESCRIPTION = "Some drywall that has been turned into wetwall then put in a syringe to inject you with. A true scientific marvel that this even can exit the syringe.";
