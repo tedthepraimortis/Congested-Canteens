@@ -61,9 +61,9 @@ CC_MURPHYSLAW_CONSUME3 = "You pick out a DRAM chip and crunch on some of the PCB
 CC_MURPHYSLAW_CONSUME4 = "Uncomfortably crunchy, and missing onion.";
 
 // The Legendary Roundmeal
-CC_ROUNDMEAL_TAG = "Roundmeal™";
-CC_ROUNDMEAL_DESCRIPTION = "A large plastic bag filled with Macaroni and Beef. Advertised as 'Protein-Blasted' with only two cooking instructions. Serves three men and may contain a visit with Davis.";
-CC_ROUNDMEAL_OPEN1 = "Incredibly sloppy.";
+CC_ROUNDMEAL_TAG = "Henton's Roundmeal™";
+CC_ROUNDMEAL_DESCRIPTION = "A large, round plastic bag filled to bursting with Macaroni and Beef. Advertised as 'Protein-Blasted' with only two cooking instructions. Serves three men and may contain a visit with Davis.";
+CC_ROUNDMEAL_OPEN1 = "Incredibly greasy. And cheesy.";
 CC_ROUNDMEAL_OPEN2 = "Reeks like both cheap cheese and poorly ground beef.";
 CC_ROUNDMEAL_CONSUME1 = "You feel most of the calorie content is made up entirely with grease.";
 CC_ROUNDMEAL_CONSUME2 = "A thick layer of cheese-slime covers the outside as a protective membrane.";
