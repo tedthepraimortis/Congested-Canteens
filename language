@@ -80,6 +80,16 @@ CC_HUMANFINGERS_CONSUME2 = "The red substance these are leaking does not taste l
 CC_HUMANFINGERS_CONSUME3 = "You feel like a deer eating these.";
 CC_HUMANFINGERS_CONSUME4 = "May just be prop food. Uncomfortably well made prop food.";
 
+// Ceviche
+CC_CEVICHE_TAG = "Ceviche MRE";
+CC_CEVICHE_DESCRIPTION = "A medium MRE with a hearty serving of heavily marinated Ceviche, though it seems to be missing corn and onions. Even with the bag closed, the painful smell of citrus permiates it. Maybe best not to eat this.";
+CC_CEVICHE_OPEN1 = "Your face instinctively scrunches up at the smell.";
+CC_CEVICHE_OPEN2 = "ACK!";
+CC_CEVICHE_CONSUME1 = "Horrifically sour.";
+CC_CEVICHE_CONSUME2 = "Tastes as bad as it smells.";
+CC_CEVICHE_CONSUME3 = "Reeks like raw fish and raw citrus-fueled pain.";
+CC_CEVICHE_CONSUME4 = "It's even missing the corn and onions to take up some of the citrus.";
+
 // Misc. - [Ted]
 CC_IDRYWALL_TAG = "Injectable Drywall";
 CC_IDRYWALL_DESCRIPTION = "Some drywall that has been turned into wetwall then put in a syringe to inject you with. A true scientific marvel that this even can exit the syringe.";

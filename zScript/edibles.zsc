@@ -90,3 +90,27 @@ class CC_HumanFingers : UaS_Consumable
         AddConsumeText(Stringtable.Localize("$CC_HUMANFINGERS_CONSUME4"));
     }
 }
+
+class CC_Ceviche : UaS_Consumable
+{
+    mixin CC_ComfortMREMixin;
+
+    default
+    {
+        tag "$CC_CEVICHE_TAG";
+        UaS_Consumable.Calories 812;
+        UaS_Consumable.Fluid -492;
+        Uas_Consumable.Bulk 8;
+        UaS_Consumable.Description "$CC_CEVICHE_DESCRIPTION";
+    }
+
+    override void Messages() {
+        AddOpenText(Stringtable.Localize("$CC_CEVICHE_OPEN1"));
+        AddOpenText(Stringtable.Localize("$CC_CEVICHE_OPEN2"));
+
+        AddConsumeText(Stringtable.Localize("$CC_CEVICHE_CONSUME1"));
+        AddConsumeText(Stringtable.Localize("$CC_CEVICHE_CONSUME2"));
+        AddConsumeText(Stringtable.Localize("$CC_CEVICHE_CONSUME3"));
+        AddConsumeText(Stringtable.Localize("$CC_CEVICHE_CONSUME4"));
+    }
+}
