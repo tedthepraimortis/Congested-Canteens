@@ -5,6 +5,7 @@ CC_EXAMPLE_LOCALIZATION_LUMP = "Suspiciously developer-like ration with a tag th
 
 // Mixins. - [Ted]
 CC_ALCHMIXIN_PICKUP = "Picked up a glass bottle filled with something alcoholic.";
+CC_BOTTLEDMIXIN_PICKUP = "Picked up a bottled drink.";
 CC_PLTMIXIN_PICKUP = "Picked up a plate of some food.";
 CC_INJECTMIXIN_PICKUP = "Picked up a broken injector.";
 CC_COMFORTMIXIN = "Picked up an MRE pouch with a pull tab.";
@@ -37,6 +38,18 @@ CC_KAHLUA_CONSUME3 = "Slightly chocolately, but still overtly sweet.";
 CC_KAHLUA_CONSUME4 = "Bluegh.";
 CC_KAHLUA_CONSUME5 = "Tastes like white girl espresso.";
 CC_KAHLUA_CONSUME6 = "Eugh...";
+
+// Battery Acid Spaghetti
+CC_BAS_DESCRIPTION = "An energy drink with shredded sour gummy strips pre-mixed into it. Seems not too bad.";
+CC_BAS_TAG = "Battery Acid Energy Drink";
+CC_BAS_OPEN1 = "There's a thin layer of... gunk under the pull tab.";
+CC_BAS_OPEN2 = "Smells like it'd kill you.";
+CC_BAS_CONSUME1 = "Absolutely abhorrent.";
+CC_BAS_CONSUME2 = "The crunchy sour pellets make it inedible.";
+CC_BAS_CONSUME3 = "Fucking disgusting.";
+CC_BAS_CONSUME4 = "Bluegh.";
+CC_BAS_CONSUME5 = "HAEUHGH";
+CC_BAS_CONSUME6 = "Please don't make me drink this...";
 
 // Plated foods -- [Kattie]
 

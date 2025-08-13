@@ -17,6 +17,25 @@ mixin class CC_AlcoholMixin
     }
 }
 
+mixin class CC_BottledDrinkMixin
+{
+    default
+    {
+        Uas_Consumable.Calories 142;
+        Uas_Consumable.Fluid 366;
+        Uas_Consumable.Bulk 10;
+
+        +Uas_Consumable.DRINKABLE;
+        +Uas_Consumable.PACKAGED;
+        +UaS_Consumable.RESEALABLE;
+        
+        Inventory.PickupMessage "$CC_BOTTLEDMIXIN_PICKUP";
+
+        Inventory.Icon "HSCVR0";
+        scale 0.8;
+    }
+}
+
 mixin class CC_PlatedMixin
 {
     default

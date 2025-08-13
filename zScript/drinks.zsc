@@ -72,3 +72,31 @@ class CC_Alcohol_Kahlua : UaS_Alcohol
         AddConsumeText(Stringtable.Localize("$CC_KAHLUA_CONSUME6"));
     }
 }
+
+class CC_Drink_BAS : UaS_Consumable
+{
+    mixin CC_BottledDrinkMixin;
+
+    default
+    {
+        Inventory.Icon "BTTLC0";
+
+        tag "$CC_BAS_TAG";
+        Uas_Consumable.Description "$CC_BAS_DESCRIPTION";
+
+        Scale 0.5;
+    }
+
+    override void Messages()
+    {
+        AddOpenText(Stringtable.Localize("$CC_BAS_OPEN1"));
+        AddOpenText(Stringtable.Localize("$CC_BAS_OPEN2"));
+
+        AddConsumeText(Stringtable.Localize("$CC_BAS_CONSUME1"));
+        AddConsumeText(Stringtable.Localize("$CC_BAS_CONSUME2"));
+        AddConsumeText(Stringtable.Localize("$CC_BAS_CONSUME3"));
+        AddConsumeText(Stringtable.Localize("$CC_BAS_CONSUME4"));
+        AddConsumeText(Stringtable.Localize("$CC_BAS_CONSUME5"));
+        AddConsumeText(Stringtable.Localize("$CC_BAS_CONSUME6"));
+    }
+}
