@@ -114,3 +114,94 @@ class CC_Ceviche : UaS_Consumable
         AddConsumeText(Stringtable.Localize("$CC_CEVICHE_CONSUME4"));
     }
 }
+
+class CC_DinkiDi : UaS_Consumable
+{
+    mixin CC_ComfortMREMixin;
+
+    default
+    {
+        tag "$CC_DINKIDI_TAG";
+        UaS_Consumable.Calories 1644;
+        UaS_Consumable.Fluid 381;
+        UaS_Consumable.Bulk 10;
+        UaS_Consumable.SpoilRate 0.25;
+        UaS_Consumable.Description "$CC_DINKIDI_DESCRIPTION";
+    }
+
+    override void Messages() {
+        AddOpenText(Stringtable.Localize("$CC_DINKIDI_OPEN1"));
+        AddOpenText(Stringtable.Localize("$CC_DINKIDI_OPEN2"));
+
+        AddConsumeText(Stringtable.Localize("$CC_DINKIDI_CONSUME1"));
+        AddConsumeText(Stringtable.Localize("$CC_DINKIDI_CONSUME2"));
+        AddConsumeText(Stringtable.Localize("$CC_DINKIDI_CONSUME3"));
+        AddConsumeText(Stringtable.Localize("$CC_DINKIDI_CONSUME4"));
+    }
+}
+
+class CC_OminousGoop : UaS_Consumable
+{
+    mixin CC_ComfortMREMixin;
+	int prevbulk;
+
+    default
+    {
+        tag "$CC_OMINOUSGOOP_TAG";
+        UaS_Consumable.Calories 2913;
+        UaS_Consumable.Fluid 3194;
+        UaS_Consumable.Bulk 45;
+        UaS_Consumable.SpoilRate 1.25;
+        UaS_Consumable.Description "$CC_OMINOUSGOOP_DESCRIPTION";
+    }
+
+    override void Messages() {
+        AddOpenText(Stringtable.Localize("$CC_OMINOUSGOOP_OPEN1"));
+        AddOpenText(Stringtable.Localize("$CC_OMINOUSGOOP_OPEN2"));
+
+        AddConsumeText(Stringtable.Localize("$CC_OMINOUSGOOP_CONSUME1"));
+        AddConsumeText(Stringtable.Localize("$CC_OMINOUSGOOP_CONSUME2"));
+        AddConsumeText(Stringtable.Localize("$CC_OMINOUSGOOP_CONSUME3"));
+        AddConsumeText(Stringtable.Localize("$CC_OMINOUSGOOP_CONSUME4"));
+    }
+
+
+	override void Tick()
+	{
+		Super.tick();
+
+		if(!tracker || !tracker.owner)
+			return;
+		HDPlayerPawn hdp = HDPlayerPawn(tracker.owner);
+		int bulk = prevbulk - weaponbulk();
+		if(bulk > 0){
+            switch(random(0,13))
+            {
+                default: break;
+			    case 0: hdp.GiveInventory("GoopShield", 1); HDMagicShield.FlashSparks(owner); owner.A_Log("Fuck, spilled some..."); break;
+			    case 1: hdp.bloodloss=max(0,hdp.bloodloss-random(4,20)); if(hdp.fatigue<HDCONST_SPRINTFATIGUE)hdp.fatigue+random(1,5); A_Log("That's not sitting right..."); break;
+                case 2: owner.A_GiveInventory("HealingMagic",HDHM_MOUTH); owner.A_Log("I feel funny..."); break;
+            }
+		}
+		prevbulk = weaponbulk();
+	}
+}
+
+class GoopShield:HDMagicShield{
+	default{
+		+nointeraction +noblockmap
+
+		-quicktoretaliate  //if enabled, regenerate up to maxamount
+		-standstill  //if enabled, do not deplete if over maxamount
+		+inventory.keepdepleted
+
+		inventory.amount 1;
+		inventory.maxamount 150;
+		inventory.icon "BON2A0";
+
+		stamina 0;  //if set, this is the strength of the shield; otherwise use maxamount
+
+		HDDamageHandler.priority 5000;
+		+hdpickup.fullcoverage
+	}
+}
