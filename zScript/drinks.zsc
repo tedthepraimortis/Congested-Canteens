@@ -100,3 +100,37 @@ class CC_Drink_BAS : UaS_Consumable
         AddConsumeText(Stringtable.Localize("$CC_BAS_CONSUME6"));
     }
 }
+
+class CC_Alcohol_Gonster : UaS_Alcohol
+{
+    mixin CC_AlcoholMixin;
+
+    default
+    {
+        UaS_Consumable.Calories 812;
+        UaS_Consumable.Fluid 1321;
+        UaS_Consumable.Bulk 16;
+        UaS_Consumable.OpenSound "mre/cork";
+
+        Inventory.Icon "BTTLB0";
+
+        tag "$CC_GONSTER_TAG";
+        Uas_Consumable.Description "$CC_GONSTER_DESCRIPTION";
+        UaS_Alcohol.IntoxPerBulk 192;
+
+        Scale 0.75;
+    }
+
+    override void Messages()
+    {
+        AddOpenText(Stringtable.Localize("$CC_GONSTER_OPEN1"));
+        AddOpenText(Stringtable.Localize("$CC_GONSTER_OPEN2"));
+
+        AddConsumeText(Stringtable.Localize("$CC_GONSTER_CONSUME1"));
+        AddConsumeText(Stringtable.Localize("$CC_GONSTER_CONSUME2"));
+        AddConsumeText(Stringtable.Localize("$CC_GONSTER_CONSUME3"));
+        AddConsumeText(Stringtable.Localize("$CC_GONSTER_CONSUME4"));
+        AddConsumeText(Stringtable.Localize("$CC_GONSTER_CONSUME5"));
+        AddConsumeText(Stringtable.Localize("$CC_GONSTER_CONSUME6"));
+    }
+}

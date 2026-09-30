@@ -51,6 +51,18 @@ CC_BAS_CONSUME4 = "Bluegh.";
 CC_BAS_CONSUME5 = "HAEUHGH";
 CC_BAS_CONSUME6 = "Please don't make me drink this...";
 
+// Gonster - [Tavi]
+CC_GONSTER_DESCRIPTION = "A home-made mixture of an old Guinness beer and a strawberry shot Monster energy drink. Why someone would create this is beyond your understanding.";
+CC_GONSTER_TAG = "Gonster Energy Beer";
+CC_GONSTER_OPEN1 = "The concoction is completely odorless, and you do not wish to look too intently at the liquid inside.";
+CC_GONSTER_OPEN2 = "You wonder if you're going to feel better or worse if you consume this. Only one way to find out, I guess.";
+CC_GONSTER_CONSUME1 = "Blegh, overwhelmingly sweet.";
+CC_GONSTER_CONSUME2 = "Abhorrently disgusting.";
+CC_GONSTER_CONSUME3 = "Somehow, the worst of both worlds.";
+CC_GONSTER_CONSUME4 = "Your stomach already has qualms with this.";
+CC_GONSTER_CONSUME5 = "BLEgh. Eugh.";
+CC_GONSTER_CONSUME6 = "Eugh...";
+
 // Plated foods -- [Kattie]
 
 // Tacos
@@ -123,7 +135,29 @@ CC_OMINOUSGOOP_CONSUME2 = "SCHLOOOORP.";
 CC_OMINOUSGOOP_CONSUME3 = "You aggressively grab a large pile of viscous goop out of the bucket and stuff it in your face like some sort of madman.";
 CC_OMINOUSGOOP_CONSUME4 = "The viscous fluid slowly makes its way down your throat, making it so you feel like you can't possibly breathe ever again in your life. Yet you continue.";
 
+// Haggis
+CC_HAGGIS_TAG = "Haggis";
+CC_HAGGIS_DESCRIPTION = "A hefty wrapped portion of what feels like pudding. You're not really sure what it's entirely made of, but it's certainly meaty.";
+CC_HAGGIS_OPEN1 = "The complete lack of smell burns more than if it smelled bad.";
+CC_HAGGIS_OPEN2 = "Looks edibly concerning.";
+CC_HAGGIS_CONSUME1 = "Mmm, earthy yet filling...";
+CC_HAGGIS_CONSUME2 = "Mmm. Actually not half bad.";
+CC_HAGGIS_CONSUME3 = "Nice chunks of what tastes like lamb.";
+CC_HAGGIS_CONSUME4 = "Yum! Beef!";
+
+// Cheese Sandwich
+CC_CHEESESANDWICH_TAG = "Wrapped Sandwich";
+CC_CHEESESANDWICH_DESCRIPTION = "A small paper wrapped sandwich. You're not too certain on what's inside, but it looks good.";
+CC_CHEESESANDWICH_OPEN1 = "Hmm, just cheese! A rarity out here.";
+CC_CHEESESANDWICH_OPEN2 = "Cold cheese, but still very much edible.";
+CC_CHEESESANDWICH_CONSUME1 = "Aww, it's American cheese...";
+CC_CHEESESANDWICH_CONSUME2 = "Filling, but not very good...";
+CC_CHEESESANDWICH_CONSUME3 = "Really dries out your mouth.";
+CC_CHEESESANDWICH_CONSUME4 = "Alright, despite the very strange lingering flavor.";
+
 // Misc. - [Ted]
+
+// Drywall. :3
 CC_IDRYWALL_TAG = "Injectable Drywall";
 CC_IDRYWALL_DESCRIPTION = "Some drywall that has been turned into wetwall then put in a syringe to inject you with. A true scientific marvel that this even can exit the syringe.";
 CC_IDRYWALL_OPEN1 = "You take the plunger out of the syringe. Why are you doing that?";

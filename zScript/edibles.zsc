@@ -205,3 +205,51 @@ class GoopShield:HDMagicShield{
 		+hdpickup.fullcoverage
 	}
 }
+
+class CC_Haggis : UaS_Consumable
+{
+    mixin CC_ComfortMREMixin;
+
+    default
+    {
+        tag "$CC_HAGGIS_TAG";
+        UaS_Consumable.Calories 1984;
+        UaS_Consumable.Fluid -194;
+        UaS_Consumable.Bulk 12;
+        UaS_Consumable.Description "$CC_HAGGIS_DESCRIPTION";
+    }
+
+    override void Messages() {
+        AddOpenText(Stringtable.Localize("$CC_HAGGIS_OPEN1"));
+        AddOpenText(Stringtable.Localize("$CC_HAGGIS_OPEN2"));
+
+        AddConsumeText(Stringtable.Localize("$CC_HAGGIS_CONSUME1"));
+        AddConsumeText(Stringtable.Localize("$CC_HAGGIS_CONSUME2"));
+        AddConsumeText(Stringtable.Localize("$CC_HAGGIS_CONSUME3"));
+        AddConsumeText(Stringtable.Localize("$CC_HAGGIS_CONSUME4"));
+    }
+}
+
+class CC_CheeseSandwich : UaS_Consumable
+{
+    mixin CC_ComfortMREMixin;
+
+    default
+    {
+        tag "$CC_CHEESESANDWICH_TAG";
+        UaS_Consumable.Calories 584;
+        UaS_Consumable.Fluid -230;
+        UaS_Consumable.Bulk 3;
+        UaS_Consumable.Description "$CC_CHEESESANDWICH_DESCRIPTION";
+    }
+
+    override void Messages() {
+        AddOpenText(Stringtable.Localize("$CC_CHEESESANDWICH_OPEN1"));
+        AddOpenText(Stringtable.Localize("$CC_CHEESESANDWICH_OPEN2"));
+
+        AddConsumeText(Stringtable.Localize("$CC_CHEESESANDWICH_CONSUME1"));
+        AddConsumeText(Stringtable.Localize("$CC_CHEESESANDWICH_CONSUME2"));
+        AddConsumeText(Stringtable.Localize("$CC_CHEESESANDWICH_CONSUME3"));
+        AddConsumeText(Stringtable.Localize("$CC_CHEESESANDWICH_CONSUME4"));
+    }
+}
