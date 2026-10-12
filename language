@@ -168,3 +168,14 @@ CC_IDRYWALL_CONSUME3 = "It's drywall. Why are you drinking it??";
 CC_IDRYWALL_CONSUME4 = "Disgustingly dry and drab.";
 CC_IDRYWALL_CONSUME5 = "Goopy. Somehow.";
 CC_IDRYWALL_CONSUME6 = "Feels almost carcinogenic.";
+
+// Volatile Physick
+CC_PHYSICK_TAG = "Volatile Physick";
+CC_PHYSICK_DESCRIPTION = "A defective crystal tear which possesses absolutely no medicinal qualities. A lesson said to be learned the hard way for some; faith can be a volatile matter, after all.";
+CC_PHYSICK_PICKUP = "Picked up a small, glowing flask.";
+CC_PHYSICK_OPEN1 = "This is a good idea.";
+CC_PHYSICK_OPEN2 = "This is not a good idea.";
+CC_PHYSICK_CONSUME1 = "Wow, that tastes like... oh.";
+CC_PHYSICK_CONSUME2 = "Dread overwhelms you.";
+CC_PHYSICK_CONSUME3 = "Woohoo! Yippee!";
+CC_PHYSICK_CONSUME4 = "YUMMY!!!!! WOWIE!!!!";
