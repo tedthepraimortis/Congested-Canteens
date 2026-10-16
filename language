@@ -155,6 +155,16 @@ CC_CHEESESANDWICH_CONSUME2 = "Filling, but not very good...";
 CC_CHEESESANDWICH_CONSUME3 = "Really dries out your mouth.";
 CC_CHEESESANDWICH_CONSUME4 = "Alright, despite the very strange lingering flavor.";
 
+// Cloaca Surprise
+CC_CloacaSurprise_TAG = "Cloaca Surprise";
+CC_CloacaSurprise_DESCRIPTION = "A foul-smelling... dessert? It looks like moldy gelatin.";
+CC_CloacaSurprise_OPEN1 = "The smell is indescribably wretched.";
+CC_CloacaSurprise_OPEN2 = "It's mildly congealed but is still warm to the touch.";
+CC_CloacaSurprise_CONSUME1 = "Your insides twist and turn in discomfort.";
+CC_CloacaSurprise_CONSUME2 = "Despite your gag reflex's best efforts, you scarf down another chunk.";
+CC_CloacaSurprise_CONSUME3 = "Your throat's a bit sore. Probably nothing!";
+CC_CloacaSurprise_CONSUME4 = "Why is it so warm?";
+
 // Misc. - [Ted]
 
 // Drywall. :3
