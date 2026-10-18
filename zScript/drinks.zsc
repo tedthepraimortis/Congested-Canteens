@@ -134,3 +134,110 @@ class CC_Alcohol_Gonster : UaS_Alcohol
         AddConsumeText(Stringtable.Localize("$CC_GONSTER_CONSUME6"));
     }
 }
+
+class CC_StructureGel : UaS_Consumable
+{
+    mixin CC_BottledDrinkMixin;
+
+    default
+    {
+        UaS_Consumable.Calories 2104;
+        UaS_Consumable.Fluid -150;
+        UaS_Consumable.Bulk 25;
+        UaS_Consumable.OpenSound "mre/sodabottle";
+
+        Inventory.Icon "PLLSA0";
+
+        tag "$CC_STRUCTUREGEL_TAG";
+        Uas_Consumable.Description "$CC_STRUCTUREGEL_DESCRIPTION";
+
+        Scale 1;
+    }
+
+    override void Messages()
+    {
+        AddOpenText(Stringtable.Localize("$CC_STRUCTUREGEL_OPEN1"));
+        AddOpenText(Stringtable.Localize("$CC_STRUCTUREGEL_OPEN2"));
+
+        AddConsumeText(Stringtable.Localize("$CC_STRUCTUREGEL_CONSUME1"));
+        AddConsumeText(Stringtable.Localize("$CC_STRUCTUREGEL_CONSUME2"));
+        AddConsumeText(Stringtable.Localize("$CC_STRUCTUREGEL_CONSUME3"));
+        AddConsumeText(Stringtable.Localize("$CC_STRUCTUREGEL_CONSUME4"));
+    }
+}
+
+class CC_Windage : UaS_Consumable
+{
+    mixin CC_BottledDrinkMixin;
+
+    default
+    {
+        UaS_Consumable.Calories 1020;
+        UaS_Consumable.Fluid 700;
+        UaS_Consumable.Bulk 16;
+        UaS_Consumable.OpenSound "mre/sodabottle";
+
+        Inventory.Icon "WNDXA0";
+
+        tag "$CC_WINDAGE_TAG";
+        Uas_Consumable.Description "$CC_WINDAGE_DESCRIPTION";
+
+        Scale 0.5;
+    }
+
+    override void Messages()
+    {
+        AddOpenText(Stringtable.Localize("$CC_WINDAGE_OPEN1"));
+        AddOpenText(Stringtable.Localize("$CC_WINDAGE_OPEN2"));
+
+        AddConsumeText(Stringtable.Localize("$CC_WINDAGE_CONSUME1"));
+        AddConsumeText(Stringtable.Localize("$CC_WINDAGE_CONSUME2"));
+        AddConsumeText(Stringtable.Localize("$CC_WINDAGE_CONSUME3"));
+        AddConsumeText(Stringtable.Localize("$CC_WINDAGE_CONSUME4"));
+        AddConsumeText(Stringtable.Localize("$CC_WINDAGE_CONSUME5"));
+    }
+    states
+    {
+        Spawn:
+        WNDX A -1;
+        Stop;
+    }
+}
+
+class CC_Voltex : UaS_Consumable
+{
+    mixin CC_BottledDrinkMixin;
+
+    default
+    {
+        UaS_Consumable.Calories 670;
+        UaS_Consumable.Fluid 150;
+        UaS_Consumable.Bulk 12;
+        UaS_Consumable.OpenSound "mre/sodabottle";
+
+        Inventory.Icon "VLTXA0";
+
+        tag "$CC_VOLTEX_TAG";
+        Uas_Consumable.Description "$CC_VOLTEX_DESCRIPTION";
+
+        Scale 1;
+    }
+
+    override void Messages()
+    {
+        AddOpenText(Stringtable.Localize("$CC_VOLTEX_OPEN1"));
+        AddOpenText(Stringtable.Localize("$CC_VOLTEX_OPEN2"));
+
+        AddConsumeText(Stringtable.Localize("$CC_VOLTEX_CONSUME1"));
+        AddConsumeText(Stringtable.Localize("$CC_VOLTEX_CONSUME2"));
+        AddConsumeText(Stringtable.Localize("$CC_VOLTEX_CONSUME3"));
+        AddConsumeText(Stringtable.Localize("$CC_VOLTEX_CONSUME4"));
+        AddConsumeText(Stringtable.Localize("$CC_VOLTEX_CONSUME4"));
+    }
+    states
+    {
+        Spawn:
+        VLTX A -1;
+        Stop;
+    }
+}

@@ -155,6 +155,49 @@ CC_CHEESESANDWICH_CONSUME2 = "Filling, but not very good...";
 CC_CHEESESANDWICH_CONSUME3 = "Really dries out your mouth.";
 CC_CHEESESANDWICH_CONSUME4 = "Alright, despite the very strange lingering flavor.";
 
+// Cloaca Surprise
+CC_CLOACASURPRISE_TAG = "Cloaca Surprise";
+CC_CLOACASURPRISE_DESCRIPTION = "A foul-smelling... dessert? It looks like moldy gelatin.";
+CC_CLOACASURPRISE_OPEN1 = "The smell is indescribably wretched.";
+CC_CLOACASURPRISE_OPEN2 = "It's steaming from the bag...";
+CC_CLOACASURPRISE_CONSUME1 = "Your insides twist and turn in discomfort.";
+CC_CLOACASURPRISE_CONSUME2 = "Despite your gag reflex's best efforts, you scarf down another chunk.";
+CC_CLOACASURPRISE_CONSUME3 = "Your throat's a bit sore. Probably nothing!";
+CC_CLOACASURPRISE_CONSUME4 = "Why is it so warm?";
+
+// Structure Gel
+cc_STRUCTUREGEL_TAG = "Sealed Capsule";
+cc_STRUCTUREGEL_DESCRIPTION = "A thick-walled glass capsule filled with a sparkling black, viscous fluid.";
+cc_STRUCTUREGEL_OPEN1 = "Nice hiss.";
+cc_STRUCTUREGEL_OPEN2 = "It's hardened a bit around the edges.";
+cc_STRUCTUREGEL_CONSUME1 = "Your esophagus feels well-lubricated.";
+cc_STRUCTUREGEL_CONSUME2 = "Doesn't repair internal organs as well as it does machinery.";
+cc_STRUCTUREGEL_CONSUME3 = "The black blood of the warden sparks and bubbles within you.";
+cc_STRUCTUREGEL_CONSUME4 = "Ambient light stings your eyes. The vitreous flesh obfuscates the divine mission.";
+
+// Windex Bottle filled with Mountain Dew Voltage
+cc_WINDAGE_TAG = "Windex";
+cc_WINDAGE_DESCRIPTION = "A plastic spray bottle labelled as Windex. Not intended for human consumption.";
+cc_WINDAGE_OPEN1 = "It's kind of fizzy...";
+cc_WINDAGE_OPEN2 = "Smells oddly sweet.";
+cc_WINDAGE_CONSUME1 = "It's blue raspberry flavor!";
+cc_WINDAGE_CONSUME2 = "A bit too sugary, but not terrible.";
+cc_WINDAGE_CONSUME3 = "This can't be good for cleaning windows.";
+cc_WINDAGE_CONSUME4 = "You feel energized.";
+cc_WINDAGE_CONSUME5 = "You always knew mom was full of shit when she told you not to drink the chemicals from under the sink.";
+
+// Mountain Dew Voltage Bottle filled with Windex
+
+cc_VOLTEX_TAG = "Mountain Dew Voltage";
+cc_VOLTEX_DESCRIPTION = "A 2-liter bottle of Mountain Dew Voltage.";
+cc_VOLTEX_OPEN1 = "Awww, it went flat.";
+cc_VOLTEX_OPEN2 = "Smells like ammonia. These new flavors are ridiculous.";
+cc_VOLTEX_CONSUME1 = "AGGH! It burns!";
+cc_VOLTEX_CONSUME2 = "Your body rejects it, yet you continue to Do the Dew.";
+cc_VOLTEX_CONSUME3 = "It gives you quite the tummyache. And mouthache. And throatache.";
+cc_VOLTEX_CONSUME4 = "Congratulations on your future starring role in a clinical case study.";
+cc_VOLTEX_CONSUME5 = "Mom was right about soda being bad for you...";
+
 // Misc. - [Ted]
 
 // Drywall. :3
