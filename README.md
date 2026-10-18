@@ -12,3 +12,5 @@
 - tedthepraimortis: Coding, ideas
 - KattieTheWuffer: Coding, ideas
 - ComradeNikki: Coding, ideas
+- vomit.self: Coding, ideas, moral support
+- satellaview-dev: Base code and idea for the Volatile Physick, gayer moral support
